@@ -5,10 +5,15 @@ import createSchema from 'part:@sanity/base/schema-creator'
 import schemaTypes from 'all:part:@sanity/base/schema-type'
 
 // Document types
+import blockContent from './blockContent'
 import category from './documents/category'
+import companyInfo from './companyInfo'
+import mainImage from './mainImage'
+import page from './page'
 import person from './documents/person'
 import sampleProject from './documents/sampleProject'
 import siteSettings from './documents/siteSettings'
+import slideshow from './slideshow'
 
 // Object types
 import bioPortableText from './objects/bioPortableText'
@@ -26,16 +31,23 @@ export default createSchema({
   types: schemaTypes.concat([
     // When added to this list, object types can be used as
     // { type: 'typename' } in other document schemas
+    blockContent,
+    blockText,
+    category,
+    companyInfo,
     bioPortableText,
     figure,
     projectMember,
     projectPortableText,
     simplePortableText,
+    mainImage,
+    page,
     // The following are document types which will appear
     // in the studio.
     category,
     person,
     sampleProject,
     siteSettings
+    slideshow
   ])
 })
