@@ -6,6 +6,7 @@ import schemaTypes from 'all:part:@sanity/base/schema-type'
 
 // Document types
 import blockContent from './blockContent'
+import blockText from './blockText'
 import category from './documents/category'
 import companyInfo from './companyInfo'
 import mainImage from './mainImage'
