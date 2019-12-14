@@ -10,6 +10,14 @@ const isProd = process.env.NODE_ENV === 'production'
 
 module.exports = {
   plugins: [
+    {
+      resolve: "gatsby-plugin-hubspot",
+      options: {
+          trackingCode: "6728858",
+          respectDNT: true,
+          productionOnly: true,
+      },
+    },
     'gatsby-plugin-postcss',
     'gatsby-plugin-react-helmet',
     {
