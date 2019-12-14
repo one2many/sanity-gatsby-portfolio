@@ -5,16 +5,16 @@ import createSchema from 'part:@sanity/base/schema-creator'
 import schemaTypes from 'all:part:@sanity/base/schema-type'
 
 // Document types
-import blockContent from './blockContent'
-import blockText from './blockText'
+import blockContent from './documents/blockContent'
+import blockText from './documents/blockText'
 import category from './documents/category'
-import companyInfo from './companyInfo'
-import mainImage from './mainImage'
-import page from './page'
+import companyInfo from './documents/companyInfo'
+import mainImage from './documents/mainImage'
+import page from './documents/page'
 import person from './documents/person'
 import sampleProject from './documents/sampleProject'
 import siteSettings from './documents/siteSettings'
-import slideshow from './slideshow'
+import slideshow from './documents/slideshow'
 
 // Object types
 import bioPortableText from './objects/bioPortableText'
