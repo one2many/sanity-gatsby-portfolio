@@ -1,3 +1,5 @@
+import { FaExternalLinkAlt } from 'react-icons/fa'
+
 /**
  * This is the schema definition for the rich text fields used for
  * for this blog studio. When you import it in schemas.js it can be
