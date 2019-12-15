@@ -2,7 +2,6 @@ export default {
   name: 'person',
   type: 'document',
   title: 'Person',
-  icon: MdPerson,
   fields: [
     {
       name: 'name',
