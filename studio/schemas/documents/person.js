@@ -1,5 +1,3 @@
-import MdPerson from 'react-icons/lib/md/person'
-
 export default {
   name: 'person',
   type: 'document',
