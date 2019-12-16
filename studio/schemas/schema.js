@@ -45,7 +45,6 @@ export default createSchema({
     page,
     // The following are document types which will appear
     // in the studio.
-    category,
     person,
     sampleProject,
     siteSettings,
